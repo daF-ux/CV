@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Григорій Черниш — Резюме</title>
+  <!-- Підключення CSS стилів -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <button id="theme-toggle">Перемикати тему</button>
+  </header>
+
+  <div class="resume-container">
+    <div class="left-column">
+      <div class="header-title">
+        <div>
+          <h1>Григорій Черниш</h1>
+          <p class="subtitle">Добросовісний та амбітний студент</p>
+          <p>
+            Маю чудові навички з Java, Python, C++, HTML. Прагну професійного зростання, 
+            відкритий до командної роботи та нових викликів. Особливо цікавлюсь розробкою 
+            вебсайтів, утиліт, алгоритмами та оптимізацією.
+          </p>
+        </div>
+        <div>
+          <div class="icon-placeholder">↺</div>
+        </div>
+      </div>
+
+      <section>
+        <h2>Освіта</h2>
+        <div class="entry">
+          <div class="entry-title">
+            <span>НУ «Львівська політехніка»</span>
+            <span>2022–2026</span>
+          </div>
+          <p>Кібербезпека (незакінчена вища)</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Інтереси</h2>
+        <ul>
+          <li>Розробка вебсайтів та утиліт</li>
+          <li>Алгоритми та оптимізація коду</li>
+          <li>Вивчення мов</li>
+          <li>Хакатони та ІТ-заходи</li>
+          <li>Технічна література, самонавчання</li>
+          <li>Музичний продакшн, ремікси</li>
+          <li>Активний відпочинок, командні ігри</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h2>Навички</h2>
+        <ul>
+          <li>Пунктуальність</li>
+          <li>Доброзичливість</li>
+          <li>Дисциплінованість</li>
+          <li>Висока працездатність</li>
+          <li>Швидке навчання</li>
+          <li>Мови програмування</li>
+          <li>Англійська — середній рівень</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Досвід роботи</h2>
+        <p>
+          Досвіду роботи ще не маю, але самостійно вивчаю сучасні технології, 
+          працюю над навчальними проєктами та прагну практичного застосування знань.
+        </p>
+      </section>
+      
+      <section id="comments">
+        <h2>Коментарі моїх попередніх роботодавців</h2>
+       <!-- Коментарі з'являться тут -->
+      </section>
+    </div>
+
+    <div class="right-column">
+      <section>
+        <h3>Особисті дані</h3>
+        <p><strong>Email:</strong> chernyshgrigorij@gmail.com</p>
+        <p><strong>Телефон:</strong> +380931554436</p>
+        <p><strong>Адреса:</strong> вул. Академіка Лазаренка 42, Львів</p>
+        <p><strong>Народження:</strong> 17.03.2005</p>
+      </section>
+
+      <section>
+        <h3>Комунікація</h3>
+        <p>
+          Вмію ефективно спілкуватися з командою, пояснювати складне просто, 
+          давати зворотний зв’язок і вирішувати конфлікти.
+        </p>
+      </section>
+
+      <section>
+        <h3>Лідерство</h3>
+        <p>
+          Ініціативність у проєктах, вміння координувати навчальні групи, 
+          брати відповідальність за результат.
+        </p>
+      </section>
+    </div>
+  </div>
+ 
+  <div id="feedback-modal" class="modal">
+  <div class="modal-content">
+    <span id="close-modal" class="close">&times;</span>
+    <h2>Форма зворотного зв'язку</h2>
+    <form action="https://formspree.io/f/xrbqrpbg" method="POST">
+      <label for="name">Ім’я:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="phone">Номер телефону:</label>
+      <input type="tel" id="phone" name="phone" required><br>
+
+      <label for="message">Повідомлення:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+
+      <button type="submit">Відправити</button>
+    </form>
+  </div>
+</div>
+
+  <!-- Підключення JavaScript скриптів -->
+  <script src="script.js"></script>
+  <footer></footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
